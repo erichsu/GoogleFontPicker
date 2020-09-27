@@ -13,6 +13,8 @@
 		56722D0525204E470037448C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56722D0325204E470037448C /* Main.storyboard */; };
 		56722D0725204E480037448C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56722D0625204E480037448C /* Assets.xcassets */; };
 		56722D0A25204E480037448C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56722D0825204E480037448C /* LaunchScreen.storyboard */; };
+		56722D1325204F150037448C /* GoogleFontAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56722D1225204F150037448C /* GoogleFontAPI.swift */; };
+		56722D162520621C0037448C /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56722D152520621C0037448C /* FontLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		56722D0625204E480037448C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56722D0925204E480037448C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56722D0B25204E480037448C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56722D1225204F150037448C /* GoogleFontAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontAPI.swift; sourceTree = "<group>"; };
+		56722D152520621C0037448C /* FontLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				56722D0625204E480037448C /* Assets.xcassets */,
 				56722D0825204E480037448C /* LaunchScreen.storyboard */,
 				56722D0B25204E480037448C /* Info.plist */,
+				56722D1225204F150037448C /* GoogleFontAPI.swift */,
+				56722D152520621C0037448C /* FontLoader.swift */,
 			);
 			path = GoogleFontPicker;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56722D1325204F150037448C /* GoogleFontAPI.swift in Sources */,
+				56722D162520621C0037448C /* FontLoader.swift in Sources */,
 				56722D0225204E470037448C /* ViewController.swift in Sources */,
 				56722CFE25204E470037448C /* AppDelegate.swift in Sources */,
 				56722D0025204E470037448C /* SceneDelegate.swift in Sources */,
